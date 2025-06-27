@@ -1,1 +1,0 @@
-const bookTitle=bookForm.getElementById('title').value;

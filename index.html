@@ -8,9 +8,17 @@
 </head>
 <body>
     <div class="container">
+        <h1 id="main-heading">BookHaven</h1>
         <button id="new-book-button">New Book</button>
         <div class="form-container">
-            <dialog id="book-dialog">
+            
+        </div>
+        <div class="books-display">
+
+        </div>
+    </div>
+
+    <dialog id="book-dialog">
                 <form id="book-form" method="dialog">
                     <h2>New Book</h2>
                     <label for="title">Title:</label>
@@ -27,18 +35,12 @@
                         Read
                     </label>
 
-                    <menu>
+                    <menu id="form-submission-menu">
                         <button type="submit">Add Book</button>
                         <button type="button" id="cancel-button">Cancel</button>
                     </menu>
                 </form>        
             </dialog>
-        </div>
-        <div class="books-display">
-
-        </div>
-    </div>
-
     <script src="script.js"></script>
 </body>
 </html>
